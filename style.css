@@ -1,0 +1,17 @@
+
+  
+  .main .home h1 {
+  padding: 20px;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-family: Georgia;
+  position: relative;
+
+  }
+ .aboutUs p {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+}

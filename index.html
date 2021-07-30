@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <style>
+      h1 {
+        background-color: orange;
+      }
+
+      div {
+        background-color: lightblue;
+      }
+
+      p {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class = 'nav'>
+        <span class = 'nav-item'>
+          <a class= 'nav-link' href="#home">Home</a>
+        </span>
+        <span class = 'nav-item'>
+          <a class= 'nav-link' href="#more">Learn More</a>
+        </span>
+        <span class = 'nav-item'>
+          <a class= 'nav-link' href="#contact">Contact Us</a>
+        </span>
+      </nav>
+    </header>
+
+    <div class = 'main'>
+      <div class='home'>
+        <img class="homeLogo" src="./images/hotel1.jpg">
+        <h1>I HEART JWD HOTEL SUITES</h1>
+
+
+        <div class="aboutUs">
+          <p>Welcome to I❤JWD Hotel and Suites. Est 2021 by Generation's JWD students catering to the betterment of your technical skills and mental health, we hope to give you a home away from home.</p>
+        </div>
+      </div>
+
+      <div class='more'>
+        <!-- Video embed & bootstrap element -->
+        <iframe width="420" height="315"
+          src="https://www.youtube.com/embed/VdxDnuXj4yc">
+        </iframe>
+      </div>
+
+      <div class='contact'>
+        <div class='address'>
+          IHeartJWD Hotel Suites<br>
+          5918 Glad Heart Boulevard<br>
+          Fremont, CA 94537<br>
+          <!-- responsive design, if screen size smaller than 480 show as phone link else, normal text -->
+ 		      <a href="tel:510-855-2555">(510) 855-2555</a><br>
+        </div>
+        <div class='contactform'>
+          <form class="comment" action="/action_page.php">
+            <h1>Contact Us!</h1>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" email="email"><br>
+            <label for="comment">Comment:</label><br>
+            <textarea name="comment" style="width:250px;height:150px;"></textarea><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
